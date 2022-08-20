@@ -13,11 +13,13 @@ The data consists of 48x48 pixel grayscale images of faces. The faces have been 
    ##### Link: https://www.kaggle.com/datasets/msambare/fer2013
    
 ## Preprocessing:
-    1. Downlaod FER 2013 data set by above link.
+   - Downlaod FER 2013 data set by above link.
     
-    2.unzip the data set
+   - unzip the data set
     
-    3. Find <mark>HOG features</mark> of images and store HOG features and labels in data list.
+  - Find HOG features of images and store HOG features and labels in data list.
+       - HOG, or Histogram of Oriented Gradients, is a feature descriptor that is often used to extract features from image data. 
+          It is widely used in computer vision tasks for object detection.
     
-    4. store data list in a pickle file for easy computation.
+   - store data list in a pickle file for easy computation.
 
