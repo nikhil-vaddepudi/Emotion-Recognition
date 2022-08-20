@@ -17,9 +17,22 @@ The data consists of 48x48 pixel grayscale images of faces. The faces have been 
     
    - unzip the data set
     
-  - Find HOG features of images and store HOG features and labels in data list.
+  - Find **HOG features** of images and store HOG features and labels in data list.
        - HOG, or Histogram of Oriented Gradients, is a feature descriptor that is often used to extract features from image data. 
           It is widely used in computer vision tasks for object detection.
     
    - store data list in a pickle file for easy computation.
+## Multi class classifier:   
 
+### 1) SVM(Support Vector Machine)
+
+-Support Vector Machine or SVM is one of the most popular Supervised Learning algorithms, which is used for Classification as well as Regression problems. However, primarily, it is used for Classification problems in Machine Learning.
+
+-The goal of the SVM algorithm is to create the best line or decision boundary that can segregate n-dimensional space into classes so that we can easily put the new data point in the correct category in the future. This best decision boundary is called a hyperplane.
+
+ - we use **sklearn.SVC** to implement SVM
+
+-SVM chooses the extreme points/vectors that help in creating the hyperplane. These extreme cases are called as support vectors, and hence algorithm is termed as Support Vector Machine. Consider the below diagram in which there are two different categories that are classified using a decision boundary or hyperplane:
+
+### 2) Decision Tree
+  - Decision Tree is a Supervised learning technique that can be used for both classification and Regression problems, but mostly it is preferred for solving Classification problems. It is a tree-structured classifier, where internal nodes represent the features of a dataset, branches represent the decision rules and each leaf node represents the outcome.
