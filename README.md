@@ -44,3 +44,10 @@ The data consists of 48x48 pixel grayscale images of faces. The faces have been 
 
 - It is called a decision tree because, similar to a tree, it starts with the root node, which expands on further branches and constructs a tree-like structure.
 - In order to build a tree, we use the CART algorithm, which stands for Classification and Regression Tree algorithm
+
+
+## Deep learning:
+### CNN:
+here we used cnn model for classification of emotions 
+### VGG-19:
+we used vgg 19 model which has 19 layers and it is a predefined model
